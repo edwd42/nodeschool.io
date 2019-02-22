@@ -1,5 +1,4 @@
 var someString = 'this is a string';
-<<<<<<< HEAD
 console.log(someString);
 
 /**
@@ -34,8 +33,6 @@ console.log(someString);
    
   Check to see if your program is correct by running this command:  
    
+<<<<<<< HEAD
   javascripting verify strings.js  
  */
-=======
-console.log(someString);
->>>>>>> 1efe39e5184c27b284368b333b1462f986242f96
