@@ -1,6 +1,13 @@
-var pizza = 'pizza is alright';
-pizza = pizza.replace('alright','wonderful');
-console.log(pizza);
+// var pizza = 'pizza is alright';
+// pizza = pizza.replace('alright','wonderful');
+// console.log(pizza);
+
+// refactor for jasmine unit testing
+module.exports = function revisingStrings(someString){
+    let revisedString = someString.replace('alright','wonderful');
+    console.log(someString + " => " + revisedString);
+    return revisedString;
+ }
 
 /**
  * # JAVASCRIPTING
