@@ -3,6 +3,7 @@
 
 // refactor for jasmine unit testing
 module.exports = function example(someString){
+   
    return "some string";
 }
 
