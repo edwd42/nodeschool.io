@@ -1,5 +1,11 @@
-var someString = 'this is a string';
-console.log(someString);
+// var someString = 'this is a string';
+// console.log(someString);
+
+// refactor for jasmine unit testing
+module.exports = function someString(someString){
+   
+   return "some string";
+}
 
 /**
  * # JAVASCRIPTING  
