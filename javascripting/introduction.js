@@ -1,4 +1,11 @@
-console.log('hello');
+// console.log('hello');
+
+// refactor for jasmine unit testing
+function sayHello(){
+   return "hello";
+}
+
+module.exports = sayHello;
 
 /**
  * # JAVASCRIPTING  

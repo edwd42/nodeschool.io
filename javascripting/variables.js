@@ -1,5 +1,11 @@
-var example = 'some string';
-console.log(example);
+// var example = 'some string';
+// console.log(example);
+
+// refactor for jasmine unit testing
+module.exports = function example(someString){
+   return "some string";
+}
+
 
 /**
  * # JAVASCRIPTING  
