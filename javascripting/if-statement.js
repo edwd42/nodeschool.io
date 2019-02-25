@@ -1,17 +1,9 @@
-// var fruit = 'orange';
-// if(fruit.length > 5){
-//     console.log("The fruit name has more than five characters.")
-// } else {
-//     console.log("The fruit name has five characters or less.")
-// }
 
-// refactor for jasmine unit testing
-module.exports = function ifStatement(fruit){
-    if(fruit.length > 5){
-        return "The fruit name has more than five characters.";
-    } else {
-        return "The fruit name has five characters or less.";
-    }
+var fruit = 'orange';
+if(fruit.length > 5){
+    console.log("The fruit name has more than five characters.")
+} else {
+    console.log("The fruit name has five characters or less.")
 }
 
 /**
@@ -58,4 +50,34 @@ module.exports = function ifStatement(fruit){
   (http://github.com/sethvincent/javascripting)  
    
  ─────────────────────────────────────────────────────────────────────────────  
+<<<<<<< HEAD
+=======
+
+ #############################################
+
+ # JAVASCRIPTING
+
+## IF STATEMENT (Exercise 9 of 19)
+
+ Here's the official solution in case you want to compare notes:
+
+─────────────────────────────────────────────────────────────────────────────
+
+# CONDITIONAL MASTER
+
+ You got it! The string orange has more than five characters.
+
+ Get ready to take on for loops next!
+
+ Run javascripting in the console to choose the next challenge.
+
+─────────────────────────────────────────────────────────────────────────────
+ You've finished all the challenges! Hooray!
+
+─────────────────────────────────────────────────────────────────────────────
+ Need help? View the README for this workshop:
+ (http://github.com/sethvincent/javascripting)
+
+─────────────────────────────────────────────────────────────────────────────
+
  */
