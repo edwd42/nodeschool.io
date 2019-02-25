@@ -1,6 +1,12 @@
-var roundUp = 1.5;
-var rounded = Math.round(roundUp);
-console.log(rounded);
+// var roundUp = 1.5;
+// var rounded = Math.round(roundUp);
+// console.log(rounded);
+
+// refactor for jasmine unit testing
+module.exports = function roundingNumbers(roundUp){
+   var rounded = Math.round(roundUp);
+   return rounded;
+ }
 
 /**
  * # JAVASCRIPTING  
