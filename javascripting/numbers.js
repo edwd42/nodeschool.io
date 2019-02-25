@@ -1,5 +1,11 @@
-var example = 123456789;
-console.log(example);
+// var example = 123456789;
+// console.log(example);
+
+// refactor for jasmine unit testing
+module.exports = function numbers(example){
+
+  return example;
+}
 
 /**
  * # JAVASCRIPTING  
