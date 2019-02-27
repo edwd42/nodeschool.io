@@ -50,5 +50,4 @@ console.log(pizzaToppings);
 
 ─────────────────────────────────────────────────────────────────────────────
  You've finished all the challenges! Hooray!
-
  */
