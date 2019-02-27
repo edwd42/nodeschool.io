@@ -1,21 +1,9 @@
-// var total = 0;
-// var limit = 10;
-// for(var i = 0; i < limit; i++){
-//     total += i;
-// }
-// console.log(total)
-
-// refactor for jasmine unit testing
-module.exports = function forLoop(){
-    var total = 0;
-    var limit = 10;
-    for(var i = 0; i < limit; i++){
-        total += i;
-    }
-    // console.log(total)
-    return total;
+var total = 0;
+var limit = 10;
+for(var i = 0; i < limit; i++){
+    total += i;
 }
-
+console.log(total)
 
 /**
  * # JAVASCRIPTING  
@@ -71,5 +59,29 @@ module.exports = function forLoop(){
   Need help? View the README for this workshop:  
   (http://github.com/sethvincent/javascripting)  
    
- ─────────────────────────────────────────────────────────────────────────────  
+ ───────────────────────────────────────────────────────────────────────────── 
+
+ ############################################
+
+ # JAVASCRIPTING
+
+## FOR LOOP (Exercise 10 of 19)
+
+ Here's the official solution in case you want to compare notes:
+
+─────────────────────────────────────────────────────────────────────────────
+
+# THE TOTAL IS 45
+
+ That is a basic introduction to for loops, which are handy in a number of
+ situations, particularly in combination with other data types like strings
+ and arrays.
+
+ In the next challenge we'll start working with arrays.
+
+ Run javascripting in the console to choose the next challenge.
+
+─────────────────────────────────────────────────────────────────────────────
+ You've finished all the challenges! Hooray!
+
  */
