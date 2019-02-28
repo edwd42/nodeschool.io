@@ -1,6 +1,14 @@
 var food = ['apple', 'pizza', 'pear'];
 console.log(food[1]);
 
+<<<<<<< HEAD
+=======
+module.exports = function arrayValue(food){
+
+    return food[1];
+}
+
+>>>>>>> unittest
 /**
  * # JAVASCRIPTING  
    

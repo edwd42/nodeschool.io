@@ -1,9 +1,17 @@
-var pets = ['cat', 'dog', 'rat'];
-for(var i = 0; i < pets.length; i++){
-    pets[i] = pets[i] + 's';
-}
+// var pets = ['cat', 'dog', 'rat'];
+// for(var i = 0; i < pets.length; i++){
+//     pets[i] = pets[i] + 's';
+// }
 
-console.log(pets);
+// console.log(pets);
+
+// refactor for jasmine unit testing
+var pets = ['cat', 'dog', 'rat'];
+const looping = (pets, pet) => {
+    return pets.map(pet => pet + 's');
+};
+
+module.exports = looping;
 
 /**
  * # JAVASCRIPTING  
