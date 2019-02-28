@@ -1,5 +1,13 @@
-var pizzaToppings = ["tomato sauce", "cheese", "pepperoni"];
-console.log(pizzaToppings);
+// var pizzaToppings = ["tomato sauce", "cheese", "pepperoni"];
+// console.log(pizzaToppings);
+
+
+// refactor for jasmine unit testing
+module.exports = function arrays(pizzaToppings){
+
+    return pizzaToppings;
+}
+
 
 /**
  * # JAVASCRIPTING  

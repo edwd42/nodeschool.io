@@ -1,11 +1,18 @@
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var filtered = numbers.filter(evenNumbers);
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var filtered = numbers.filter(evenNumbers);
+// function evenNumbers (number) {  
+//     return number % 2 === 0;  
+// }
 
-function evenNumbers (number) {  
-    return number % 2 === 0;  
-}
+// refactor for jasmine unit testing
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const filtered = (arr, query) => {
+    return arr.filter(el => el % 2 == 0);
+};
 
-console.log(filtered);
+console.log(filtered(numbers));
+
+module.exports = filtered;
 
 /**
  * # JAVASCRIPTING  
