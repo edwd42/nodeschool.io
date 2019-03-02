@@ -3,6 +3,9 @@ function eat(food){
 }
 console.log(eat('bananas'));
 
+// refactor for jasmine unit testing
+module.exports = eat;
+
 /**
  * ## FUNCTIONS (Exercise 17 of 19)  
    

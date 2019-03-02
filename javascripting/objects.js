@@ -5,6 +5,9 @@ var pizza = {
   };
 console.log(pizza);
 
+// refactor for jasmine unit testing
+module.exports = pizza;
+
 /**
  * # JAVASCRIPTING  
    

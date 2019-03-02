@@ -1,7 +1,14 @@
 var food = {  
     types: 'only pizza'  
 };  
+
+function foodType(type){
+   return food.types;
+}
 console.log(food.types);
+
+// refactor for jasmine unit testing
+module.exports = foodType;
 
 /**
  * # JAVASCRIPTING  

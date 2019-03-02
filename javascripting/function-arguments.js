@@ -3,6 +3,9 @@ function math(num0, num1, num2){
 }
 console.log(math(53,61,67))
 
+// refactor for jasmine unit testing
+module.exports = math;
+
 /**
  * # JAVASCRIPTING  
    
