@@ -1,4 +1,11 @@
+// module.exports = console.log("HELLO WORLD")
+
+// refactor for jasmine unit testing
+const hello_world = () => "HELLO WORLD";
+
 console.log("HELLO WORLD")
+
+module.exports = hello_world;
 
 /**
  * # LEARN YOU THE NODE.JS FOR MUCH WIN!  
@@ -50,5 +57,5 @@ Your submission results compared to the expected:
 
  # PASS Your solution to HELLO WORLD passed!
 
- 
+
  */
