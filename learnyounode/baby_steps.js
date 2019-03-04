@@ -1,8 +1,13 @@
-let total = 0
-for(let i = 2; i < process.argv.length; i++){
-    total += +process.argv[i]
+// refactor for jasmine unit testing
+const baby_steps = () => {
+    let total = 0
+    for(let i = 2; i < process.argv.length; i++){
+        total += +process.argv[i]
+    }
+    return total
 }
-console.log(total)
+
+module.exports = baby_steps;
 
 /**
  * ## BABY STEPS (Exercise 2 of 13)  
