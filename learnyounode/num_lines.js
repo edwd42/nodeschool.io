@@ -1,10 +1,10 @@
 var fs = require('fs')
 
-const numLines = fs.readFileSync(process.argv[2]).toString().split("\n").length - 1
+// const numLines = fs.readFileSync(process.argv[2]).toString().split("\n").length - 1
 
-console.log(numLines)
+// console.log(numLines)
 
-module.exports = numLines;
+// module.exports = numLines;
 
 /**
  * ## MY FIRST I/O! (Exercise 3 of 13)  
