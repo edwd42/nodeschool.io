@@ -4,6 +4,8 @@ const numLines = fs.readFileSync(process.argv[2]).toString().split("\n").length 
 
 console.log(numLines)
 
+module.exports = numLines;
+
 /**
  * ## MY FIRST I/O! (Exercise 3 of 13)  
    
